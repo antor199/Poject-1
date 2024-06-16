@@ -1,0 +1,25 @@
+nav, ul, li, a {
+  display: flex;
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+  padding: 10px;
+}
+
+a:hover {
+    background-color: aqua;
+}
+ 
+   /* menu styles */
+
+ .drop {
+   display: none;
+   position: absolute;
+   background-color: aliceblue;
+   padding-right: 20px;
+}
+nav li:hover > .drop {
+    display: block;
+}
+
+
